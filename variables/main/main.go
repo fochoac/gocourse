@@ -12,4 +12,5 @@ func main() {
 	var resultado = funciones.Sub(10, 20)
 	var suma = strconv.Itoa(resultado)
 	fmt.Println("La suma es " + suma)
+	fmt.Println("La suma es " + funciones.VariableCapitalizada)
 }
